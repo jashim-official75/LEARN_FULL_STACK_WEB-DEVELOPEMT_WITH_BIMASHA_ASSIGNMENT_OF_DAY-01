@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LEARN HTML5</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        h1.title {
+            background: #5700ae;
+            color: #fff;
+            padding: 2rem;
+        }
+        .images 
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .images  a 
+        {
+            display: block;
+           
+            position: relative;
+            z-index: 9;
+            width: 600px;
+        }
+        .images  a img 
+        {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            box-shadow: 0 1rem 1rem rgba(0,0,0,0.3);
+            border-radius: 1rem;
+            border: 0.2rem solid #fff;
+       
+        }
+        .images a:hover
+        {
+            filter: hue-rotate(360deg);
+            transform: scale(1.1);
+            animation: hue_rotate 1s linear infinite;
+            position: relative;
+            z-index: 100;
+            transition: all 0.8s ease;
+        }
+@keyframes hue_rotate {
+    from 
+    {
+        filter: hue-rotate(0deg);
+    }
+    to 
+    {
+        filter: hue-rotate(360deg);
+    }
+}
+    </style>
+</head>
+
+
+<body>
+    <h1 class="title">Class -01 Assignment OF FUll-Stack Web Developement Course</h1>
+    <!-- 
+        ============================================
+        ALL HEADINGS IN HTML5
+        ============================================
+    -->
+    <h1 class="title">ALL HEADINGS IN HTML5</h1 class="title">
+    <hr>
+    <h1>This is heading One</h1 class="title">
+    <h2>This is heading Two</h2>
+    <h3>This is heading Three</h3>
+    <h4>This is heading Four</h4>
+    <h5>This is heading Five</h5>
+    <h6>This is heading Six</h6>
+    <!-- 
+        ============================================
+        BANGLA PARAGRAPH IN HTML5
+        ============================================
+    -->
+    <h1 class="title">Banlga Paragraph In HTML5</h1 class="title">
+    <hr>
+    <P lang="bn">
+        HTML একটা কম্পিউটার ল্যাঙ্গুয়েজ, যা দিয়ে আপনি যেকোনো তথ্য, ছবি এমনকি ভিডিওকে ইন্টারনেটের মাধ্যমে প্রদর্শনের
+        সুযোগ পাবেন। আর এই কাজটি করতে হলে আপনাকে একটা ওয়েব পেজ তৈরী করতে হবে। আর একটা ওয়েব পেজের মূল গঠন তৈরি হয় HTML
+        দিয়েই । HTML কোন প্রোগ্রামিং ল্যাঙ্গুয়েজ নয়, একে Hyper Text Mark Up Language বলা হয়। Mark Up Language এক সেট
+        Mark Up ট্যাগের সমন্বয়ে গঠিত হয়। একটা ওয়েব পেজের বিভিন্ন অংশ ব্রাউজারের মাধ্যমে কিভাবে প্রদর্শিত হবে, তা HTML
+        এ Mark Up ট্যাগ সমূহ ব্যবহার করে প্রকাশ করা হয় ।
+    </P>
+    <!-- 
+        ============================================
+        MAIN  CONTENT   IN HTML5
+        ============================================
+    -->
+    <h1 class="title">Main ContentIn HTML5</h1 class="title">
+    <hr>
+    <main>
+        <h1>Apples</h1>
+        <p>The apple is the pomaceous fruit of the apple tree.</p>
+
+        <article>
+            <h2>Red Delicious</h2>
+            <p>These bright red apples are the most common found in many
+                supermarkets.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore harum inventore, esse blanditiis ut
+                animi, molestias nam velit qui vero veniam quidem atque repellat? Laboriosam?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure distinctio neque suscipit in perspiciatis
+                deserunt asperiores dolores, assumenda veniam accusantium libero possimus perferendis dolorem rem
+                expedita eveniet at? Suscipit laboriosam, ad vel eligendi tenetur ipsa eos dolorem vitae quis iste
+                repudiandae, recusandae rem cupiditate fugit quia autem temporibus dicta hic?</p>
+        </article>
+
+        <article>
+            <h2>Granny Smith</h2>
+            <p>These juicy, green apples make a great filling for
+                apple pies.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis quaerat ipsum doloremque. Amet sunt odio
+                consectetur, molestias maxime repellendus nostrum. Nihil fugit consequuntur velit, dignissimos id
+                voluptatum provident ab cupiditate fuga at reprehenderit ea. Perferendis distinctio quas praesentium.
+                Dolor, tempora atque pariatur doloremque cum reiciendis? Temporibus deleniti doloremque obcaecati!
+                Dolores.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque sit aspernatur tempora unde consectetur,
+                eius sint amet quod a ad aut nam nihil illo dicta architecto, repellat minima? Veniam sed sunt quia?
+                Quasi perspiciatis porro, rem officiis atque laudantium impedit beatae consequatur dolorum labore minus,
+                sequi fuga soluta ab consequuntur?</p>
+        </article>
+
+    </main>
+
+    <main>
+
+    </main>
+
+    <!-- 
+        ============================================
+        PDF VIEW  IN HTML5
+        ============================================
+    -->
+
+    <h1 class="title">PDF view In HTML5</h1 class="title">
+    <hr>
+    <embed src="assets/screencapture-127-0-0-1-5501-2022-05-26-18_11_26.pdf" width="500" height="375"
+        type="application/pdf">
+    <!-- 
+        ============================================
+        FRENCH PARAGRAPH IN HTML5
+        ============================================
+    -->
+    <h1 class="title">French Paragraph In HTML5</h1 class="title">
+    <hr>
+
+    <p lang="fr">HTML est un langage informatique qui permet d'afficher n'importe quelle information, image ou vidéo sur
+        Internet. Et pour ce faire, vous devez créer une page Web. Et la structure de base d'une page Web est créée avec
+        HTML. HTML n'est pas un langage de programmation, il s'appelle Hyper Text Mark Up Language. Le langage de
+        balisage est un ensemble de balises de balisage. La façon dont les différentes parties d'une page Web sont
+        affichées via un navigateur est exprimée en HTML à l'aide de balises Mark Up.</p>
+    <!-- 
+        ============================================
+        PARAGRAPH IN HTML5
+        ============================================
+    -->
+    <h1 class="title"> PARAGRAPH IN HTML5</h1 class="title">
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint repellendus, reiciendis officia odio provident
+        fugit accusantium tenetur voluptatibus velit omnis doloribus! Dolores fuga similique placeat voluptates modi
+        neque earum voluptatibus ab quo dignissimos dolor iste, laborum a quia praesentium ipsa rem nihil delectus id
+        quam doloremque soluta ad doloribus! Quod?</p>
+    <!-- 
+        ============================================
+        HORIZONTAL ROW IN HTML5
+        ============================================
+    -->
+    <h1 class="title"> HORIZONTAL ROW IN HTML5</h1 class="title">
+    <hr>
+    <hr style="width: 50%; height: 5px;" noshade="noshade">
+    <hr style="height: 50px; background-color: red; border: 0; outline: 0; user-select: none;" noshade="noshade">
+
+    <!-- 
+        ============================================
+        COMMENT IN HTML5
+        ============================================
+    -->
+    <h1 class="title">COMMENT IN HTML5</h1>
+    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur non eaque consequuntur sunt repellendus similique laudantium molestias nisi, modi rem sapiente vero eum aspernatur expedita totam placeat ex exercitationem itaque illum quisquam corrupti corporis, maiores incidunt. Laboriosam magnam, alias excepturi repellat, maxime enim laborum doloremque dignissimos architecto qui repellendus ducimus!</p> -->
+    <!-- 
+        ============================================
+        UNORDERD LIST-ITEM IN HTML5
+        ============================================
+    -->
+      <!-- 
+        ============================================
+        LINK IN HTML5
+        ============================================
+    -->
+    <h1 class="title">LINK IN HTML5</h1>
+    <hr>
+    <a href="#">This is a Link</a>
+    <a href="https://www.facebook.com">Facebook</a>
+    <a href="https://www.youtube.com" target="_blank">Youtube</a>
+    <a href="https://www.youtube.com" target="_blank">Youtube</a>
+      <!-- 
+        ============================================
+        IMAGES IN HTML5
+        ============================================
+    -->
+    <h1 class="title">IMAGES IN HTML5</h1>
+    <hr>
+    <div class="images">
+        <a href="https://www.naptechlabs.com"><img src="assets/images/images/project/project-1.png" alt="" ></a>
+        <a href="https://gamesplanet.mobi/"><img src="assets/images/images/project/project-2.png" alt="" ></a>
+        <a href="https://jangogames.com/"><img src="assets/images/images/project/project-3.png" alt="" ></a>
+        <a href="https://kidyzoo.naptechlabs.com/"><img src="assets/images/images/project/project-4.png" alt="" ></a>
+        <a href="https://kidyking.com/"><img src="assets/images/images/project/project-5.png" alt="" ></a>
+        <a href="https://napzone.games/"><img src="assets/images/images/project/project-6.png" alt="" ></a>
+    </div>
+    <h1 class="title">UNORDERD LIST-ITEM IN HTML5</h1 class="title">
+    <hr>
+    <ul>
+        <li>HTML stands for Hyper Text Markup Language</li>
+        <li>HTML is the standard markup language for creating Web pages</a></li>
+        <li>HTML describes the structure of a Web page</li>
+        <li>HTML consists of a series of elements</li>
+        <li>HTML elements tell the browser how to display the content</li>
+        <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link",
+            etc.</li>
+    </ul>
+
+    <!-- 
+        ============================================
+        UNORDERD LIST-ITEM IN HTML5
+        ============================================
+    -->
+
+    <!-- 
+        ============================================
+       FORM ELEMENT IN HTML5
+        ============================================
+    -->
+    <h1 class="title">Form In Html5</h1>
+    <form>
+        <input type="text" name="username" autofocus>
+        <input type="password" name="password">
+        <input type="submit" value="Login">
+    </form>
+
+
+
+</body>
+
+</html>
